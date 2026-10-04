@@ -30,7 +30,7 @@ execFileSync(
     ".",
     ":(exclude).env*",
     ":(exclude)**/Yutong.*",
-    ":(exclude).github/workflows/*",
+    ":(exclude).github/**",
     ":(exclude)design/branding/*.txt",
   ],
   { cwd: root },
