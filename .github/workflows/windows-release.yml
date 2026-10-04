@@ -1,0 +1,31 @@
+# Copy into .github/workflows/windows-release.yml in the new publication repository.
+# Upstream workflows are deliberately excluded from the source release.
+name: Windows desktop beta
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: corepack enable
+      - run: corepack yarn install --frozen-lockfile
+      - run: npm --prefix desktop ci
+      - run: node node_modules/vitest/vitest.mjs run excalidraw-app/boards/server.test.ts --maxWorkers=1 --minWorkers=1
+      - run: node scripts/build-desktop.cjs
+      - run: npm --prefix desktop run dist
+      - run: node scripts/release-artifacts.cjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LuluBoard-windows-x64
+          path: |
+            release/*-setup.exe
+            release/*-source.zip
+            release/SHA256SUMS.txt
+            release/SOURCE_VERSION.txt
+            release/RELEASE_NOTES.md

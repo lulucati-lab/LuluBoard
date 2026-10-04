@@ -1,0 +1,381 @@
+[
+  {
+    "name": "Robots",
+    "description": "Collection of robots in different moods.",
+    "authors": [
+      {
+        "name": "Kaligule",
+        "url": "https://schauderbasis.de"
+      }
+    ],
+    "source": "kaligule/robots.excalidrawlib",
+    "preview": "kaligule/robots.png",
+    "created": "2021-03-23",
+    "updated": "2021-03-23",
+    "version": 1,
+    "id": "jXpa3f12fQ"
+  },
+  {
+    "name": "Charts",
+    "description": "Collection of charts: bar, column, line, pie.",
+    "authors": [
+      {
+        "name": "NicolasGoudry@G.Script",
+        "url": "https://github.com/g-script"
+      }
+    ],
+    "source": "g-script/charts.excalidrawlib",
+    "preview": "g-script/charts.png",
+    "created": "2020-12-17",
+    "updated": "2020-12-17",
+    "version": 1,
+    "id": "9GO7hOfboY4"
+  },
+  {
+    "name": "Stick Figures",
+    "description": "Collection of stick figures.",
+    "authors": [
+      {
+        "name": "Youri Tjang",
+        "github": "https://github.com/youritjang",
+        "twitter": "https://twitter.com/YouriTjang",
+        "url": "https://github.com/youritjang"
+      }
+    ],
+    "source": "youritjang/stick-figures.excalidrawlib",
+    "preview": "youritjang/stick-figures.jpg",
+    "created": "2020-12-18",
+    "updated": "2022-08-07",
+    "version": 2,
+    "itemNames": [
+      "Stick man",
+      "Moustache man",
+      "Girl",
+      "Guy",
+      "Grandma",
+      "Child",
+      "Shrug",
+      "Happy",
+      "Sad"
+    ],
+    "id": "832Zp5zaukx"
+  },
+  {
+    "name": "Storytelling",
+    "description": "Drawings representing emotions or whatever you want. Perfect to add some fun or stories to your diagrams.",
+    "authors": [
+      {
+        "name": "drwnio.polyrand.net",
+        "url": "https://drwnio.polyrand.net/"
+      }
+    ],
+    "source": "drwnio/storytelling.excalidrawlib",
+    "preview": "drwnio/storytelling.png",
+    "created": "2021-01-28",
+    "updated": "2021-01-28",
+    "version": 1,
+    "id": "7JW0nUyIW2R"
+  },
+  {
+    "name": "Bubbles",
+    "description": "A collection of simple speech and thought bubbles.",
+    "authors": [
+      {
+        "name": "Oscar Capraro",
+        "url": "https://www.codegrepper.com/app/profile.php?id=44392"
+      }
+    ],
+    "source": "ocapraro/bubbles.excalidrawlib",
+    "preview": "ocapraro/bubbles.png",
+    "created": "2021-03-04",
+    "updated": "2021-03-04",
+    "version": 1,
+    "id": "2S7dChJEzpC"
+  },
+  {
+    "name": "Business Model Templates",
+    "description": "A collection of templates for canvases that can be used to model various business aspects. The following canvases are in this collection: Business Model Canvas, Value Proposition Canvas.",
+    "authors": [
+      {
+        "name": "Stephan Hellerbrand",
+        "url": "https://www.hellerbit.com"
+      }
+    ],
+    "source": "shellerbrand/canvases.excalidrawlib",
+    "preview": "shellerbrand/canvases.png",
+    "created": "2021-06-05",
+    "updated": "2021-06-05",
+    "version": 1,
+    "id": "14uBqv2CVSN"
+  },
+  {
+    "name": "Deep learning",
+    "description": "Deep learning",
+    "authors": [
+      {
+        "name": "Yuelfei.wu",
+        "github": "https://github.com/yuelfei",
+        "twitter": "https://twitter.com/yuelfei",
+        "url": "https://github.com/yuelfei"
+      }
+    ],
+    "source": "yuelfei/deep-learning.excalidrawlib",
+    "preview": "yuelfei/deep-learning.jpg",
+    "created": "2022-04-08",
+    "updated": "2022-04-08",
+    "version": 2,
+    "itemNames": [
+      "GNN",
+      "CNN",
+      "RNN",
+      "MLP",
+      "LSTM",
+      "M-attention",
+      "Attention",
+      "Encoder-Decoder",
+      "Attention-QKV",
+      "QKV",
+      "Transformer",
+      "Mask"
+    ],
+    "id": "4GD51Vf1naO"
+  },
+  {
+    "name": "Simple Sticky Notes",
+    "description": "Simplistic sticky notes based on Rectangles and inner texts. The benefit is that the text is not secondary layer, so the Rectangle scales by the text",
+    "authors": [
+      {
+        "name": "kleinpetr",
+        "github": "https://github.com/kleinpetr",
+        "twitter": "https://twitter.com/kleinpetr",
+        "url": "https://github.com/kleinpetr"
+      }
+    ],
+    "source": "kleinpetr/simple-sticky-notes.excalidrawlib",
+    "preview": "kleinpetr/simple-sticky-notes.jpg",
+    "created": "2023-02-02",
+    "updated": "2023-02-02",
+    "version": 2,
+    "itemNames": [
+      "sticky-green",
+      "sticky-blue",
+      "sticky-purple",
+      "sticky-grey",
+      "sticky-red",
+      "sticky-orange",
+      "sticky-yellow"
+    ]
+  },
+  {
+    "name": "IT icons",
+    "description": "The shown icons are dedicated to the design of IT system architecture. The collection allows you to present the scheme of complex concepts in an easy and clear way.",
+    "authors": [
+      {
+        "name": "Mateusz Baran",
+        "github": "https://github.com/mateuszbaransanok",
+        "twitter": "",
+        "url": "https://github.com/mateuszbaransanok"
+      }
+    ],
+    "source": "mateuszbaransanok/it-icons.excalidrawlib",
+    "preview": "mateuszbaransanok/it-icons.jpg",
+    "created": "2023-08-29",
+    "updated": "2023-08-29",
+    "version": 2,
+    "itemNames": [
+      "Document",
+      "Image",
+      "Folder",
+      "Email",
+      "Sound",
+      "Video",
+      "Microphone",
+      "Camera",
+      "Speaker",
+      "Model",
+      "Network",
+      "Internet",
+      "User",
+      "Home",
+      "Pie chart",
+      "Bar chart",
+      "Firewall",
+      "Cloud",
+      "Database",
+      "Drive",
+      "Server",
+      "Host",
+      "Device",
+      "Printer",
+      "Settings",
+      "Key",
+      "Yes",
+      "No",
+      "Event",
+      "Message",
+      "Timer",
+      "Conditional",
+      "Link",
+      "Signal",
+      "Error",
+      "Escalation",
+      "Compensation",
+      "Cancel",
+      "Multiple",
+      "Multiple Parallel",
+      "Gateway",
+      "Exclusive Gateway",
+      "Inclusive Gateway",
+      "Parallel Gateway",
+      "Comment",
+      "Block",
+      "Lifeline",
+      "Pool"
+    ]
+  },
+  {
+    "name": "Presentation bundle",
+    "description": "The library contains graphic themes, bullets, and common screen ratios that can be used when creating presentations.",
+    "authors": [
+      {
+        "name": "gabi.macakova",
+        "github": "https://github.com/gabrielamacakova",
+        "twitter": "https://twitter.com/g_macakova",
+        "url": "https://github.com/gabrielamacakova"
+      }
+    ],
+    "source": "gabrielamacakova/presentation-bundle.excalidrawlib",
+    "preview": "gabrielamacakova/presentation-bundle.jpg",
+    "created": "2023-09-04",
+    "updated": "2023-09-04",
+    "version": 2,
+    "itemNames": [
+      "Simplicity (slides)",
+      "Simplicity (intro)",
+      "Pacman (slides)",
+      "Pacman (intro)",
+      "Tetris (slides)",
+      "Tetris (intro)",
+      "Graph (slides)",
+      "Graph (intro)",
+      "Creativity (slides)",
+      "Creativity (intro)",
+      "Circles (slides)",
+      "Circles (intro)",
+      "Excalidraw (slide)",
+      "Excalidraw (intro)",
+      "Bullets",
+      "21:9",
+      "1:1",
+      "3:2",
+      "4:3",
+      "16:9"
+    ]
+  },
+  {
+    "name": "Flow Chart Symbols",
+    "description": "Common symbols used in flow chart, including: Start / End, Process, Decision, Document, Multiple Document, Manaual Input, \r\nPredefined Process, Input / Output, And, Or, Database, Preparation / Initialization, \r\nDelay, Connector, Off-page Connector",
+    "authors": [
+      {
+        "name": "Fin",
+        "github": "https://github.com/finfin",
+        "twitter": "https://twitter.com/nifetuc",
+        "url": "https://www.facebook.com/thingsaboutwebdev/"
+      }
+    ],
+    "source": "finfin/flow-chart-symbols.excalidrawlib",
+    "preview": "finfin/flow-chart-symbols.jpg",
+    "created": "2024-10-11",
+    "updated": "2024-10-11",
+    "version": 2,
+    "itemNames": [
+      "Off-page Connector",
+      "Connector",
+      "Delay",
+      "Preparation / Initialization",
+      "Database",
+      "Or",
+      "And",
+      "Input / Output",
+      "Predefined Process",
+      "Manaual Input",
+      "Multiple Document",
+      "Document",
+      "Decision",
+      "Process",
+      "Start / End"
+    ]
+  },
+  {
+    "name": "Dashboard Charts",
+    "description": "A collection of reusable charts and wireframing components to help you plan and design better dashboards.",
+    "authors": [
+      {
+        "name": "datavizfairy",
+        "github": "https://github.com/datavizfairy",
+        "twitter": "https://twitter.com/datavizfairy",
+        "url": "https://datavizfairy.co.uk"
+      }
+    ],
+    "source": "datavizfairy/dashboard-charts.excalidrawlib",
+    "preview": "datavizfairy/dashboard-charts.jpg",
+    "created": "2026-05-31",
+    "updated": "2026-05-31",
+    "version": 2,
+    "itemNames": [
+      "KPI Bar",
+      "KPI Bar",
+      "KPI Line",
+      "KPI Line",
+      "KPI Card",
+      "KPI Card",
+      "KPI % of Total",
+      "KPI % of Total",
+      "Vertical Bar",
+      "Horizontal Bar",
+      "Stacked Columns",
+      "Stacked Columns",
+      "Stacked Columns - % of Total",
+      "Diverging Bar",
+      "Bar vs Target",
+      "Lollipop",
+      "Lollipop",
+      "Gantt Timeline",
+      "Slope Chart",
+      "Histogram",
+      "Dot Strip Plot",
+      "Line • 1 series",
+      "Line • 2 series",
+      "Line • 3 series",
+      "Area",
+      "Area - Line",
+      "Area with Line",
+      "Donut • 2 Segment",
+      "Donut • 3 Segment",
+      "Waterfall Bar",
+      "Treemap",
+      "Sunburst",
+      "Gauge",
+      "Gauge with Segments",
+      "Pie Chart",
+      "% of Total Bars",
+      "Box Plot",
+      "Box Plot",
+      "Scatter plot",
+      "Packed Bubbles",
+      "Heatmap",
+      "Sankey",
+      "Data Table",
+      "Table • Bar",
+      "Table • Heatmap",
+      "Waffle Chart",
+      "Bump Chart",
+      "World Map",
+      "US States Map",
+      "UK Map",
+      "Word Cloud",
+      "Network Chart",
+      "Data Viz Fairy Credit"
+    ]
+  }
+]

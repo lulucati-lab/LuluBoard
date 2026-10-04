@@ -1,0 +1,52 @@
+{
+  "name": "luluboard",
+  "version": "0.1.0-beta.1",
+  "description": "面向知识创作者的本地画板",
+  "author": "lulucati",
+  "license": "MIT",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "prepare:app": "node prepare.cjs",
+    "start": "electron .",
+    "pack": "electron-builder --win --x64 --dir",
+    "dist": "electron-builder --win nsis --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "44.5.1",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "lab.lulucati.luluboard",
+    "productName": "LuluBoard",
+    "copyright": "Copyright © 2026 lulucati and contributors",
+    "directories": {
+      "output": "../release"
+    },
+    "files": [
+      "main.cjs",
+      "server.cjs",
+      "web/**/*",
+      "package.json",
+      "!node_modules/**/*"
+    ],
+    "asar": true,
+    "win": {
+      "icon": "../public/board-logo.png",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false,
+      "createDesktopShortcut": true,
+      "shortcutName": "画板",
+      "license": "../LICENSE"
+    },
+    "artifactName": "LuluBoard-${version}-windows-${arch}-setup.${ext}",
+    "npmRebuild": false
+  },
+  "packageManager": "npm@11.19.0",
+  "dependencies": {}
+}

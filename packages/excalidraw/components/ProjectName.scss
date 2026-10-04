@@ -1,0 +1,47 @@
+.ProjectName {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+
+  .TextInput {
+    height: calc(1rem - 3px);
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 8px;
+    text-overflow: ellipsis;
+
+    &--readonly {
+      background: none;
+      border: none;
+      &:hover {
+        background: none;
+      }
+      width: auto;
+      max-width: 200px;
+      padding-left: 2px;
+    }
+  }
+
+  &--header {
+    margin: 0;
+    width: 100%;
+    min-width: 0;
+
+    .ProjectName-label {
+      display: none;
+    }
+
+    .TextInput {
+      width: 100%;
+      min-width: 0;
+      margin-left: 0;
+      text-align: left;
+      font-size: 0.875rem;
+      line-height: 1.2;
+      background: var(--island-bg-color);
+      border-color: var(--default-border-color);
+    }
+  }
+}

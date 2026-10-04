@@ -1,0 +1,58 @@
+画板 · lulucati
+本版本整理维护 / 全平台署名：lulucati
+
+开源代码来源：
+https://github.com/excalidraw/excalidraw
+https://github.com/hulkbig/excalidraw-zh
+https://github.com/chenxuan520/excalidraw （整合来源提交 ea1a81cd）
+上述项目的 MIT 许可原文：excalidraw-MIT.txt
+本应用为独立衍生版本，并非上游官方发布。
+
+素材来源与作者（保留原始来源清单）：
+Robots — Kaligule
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/kaligule/robots.excalidrawlib
+Charts — NicolasGoudry@G.Script
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/g-script/charts.excalidrawlib
+Stick Figures — Youri Tjang
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/youritjang/stick-figures.excalidrawlib
+Storytelling — drwnio.polyrand.net
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/drwnio/storytelling.excalidrawlib
+Bubbles — Oscar Capraro
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/ocapraro/bubbles.excalidrawlib
+Business Model Templates — Stephan Hellerbrand
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/shellerbrand/canvases.excalidrawlib
+Deep learning — Yuelfei.wu
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/yuelfei/deep-learning.excalidrawlib
+Simple Sticky Notes — kleinpetr
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/kleinpetr/simple-sticky-notes.excalidrawlib
+IT icons — Mateusz Baran
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/mateuszbaransanok/it-icons.excalidrawlib
+Presentation bundle — gabi.macakova
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/gabrielamacakova/presentation-bundle.excalidrawlib
+Flow Chart Symbols — Fin
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/finfin/flow-chart-symbols.excalidrawlib
+Dashboard Charts — datavizfairy
+https://github.com/excalidraw/excalidraw-libraries/blob/main/libraries/datavizfairy/dashboard-charts.excalidrawlib
+
+素材许可：/libraries/creator-kit/LICENSE
+原始来源清单：/libraries/creator-kit/sources.json
+
+字体来源与许可：
+Yozai-Regular
+https://github.com/lxgw/yozai-font/releases/download/v0.868/Yozai-Regular.ttf
+https://raw.githubusercontent.com/lxgw/yozai-font/master/OFL.txt
+LXGWWenKaiScreen
+https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.522/LXGWWenKaiScreen.ttf
+https://raw.githubusercontent.com/lxgw/LxgwWenKai-Screen/main/OFL.txt
+ChenYuluoyan-2.0-Thin
+https://github.com/Chenyu-otf/chenyuluoyan_thin/releases/download/v2.0/ChenYuluoyan-2.0-Thin.ttf
+https://raw.githubusercontent.com/Chenyu-otf/chenyuluoyan_thin/main/license.txt
+
+其他内置字体与软件依赖仍保留其随附许可证；不以本声明替代各自授权条款。
+
+本地发行版补充：
+LuluBoard 0.1.0-beta.1 · 作者 https://github.com/lulucati-lab
+其他字体许可证位于 /licenses/fonts/，中文手写字体许可证位于 /fonts/handwriting/。
+旧字体家族 Yutong（编号10）改用悠哉字体兼容显示；发行包不包含旧平方雨桐字体文件。
+Nunito 与 Lilita One 原始字体来自 fonts.gstatic.com，现随包本地提供，许可见对应 OFL 文件。
+依赖许可证汇总在桌面构建产物 /licenses/DEPENDENCIES.txt；Electron 的 LICENSE 与 LICENSES.chromium.html 随程序提供。
