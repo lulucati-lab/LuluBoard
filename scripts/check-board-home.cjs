@@ -55,6 +55,8 @@ const png =
     assert.ok(
       path.basename(info.dataPath).startsWith("excalidraw-home-browser-"),
     );
+    if (!info.folders.length)
+      info.folders.push(await rpc("folder-create", { name: "测试文件夹" }));
     await page.goto(`${base}/?lng=zh-CN`, { waitUntil: "domcontentloaded" });
     await page
       .getByRole("heading", { name: "全部画布", exact: true })

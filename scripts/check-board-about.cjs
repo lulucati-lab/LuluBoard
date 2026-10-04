@@ -35,7 +35,15 @@ const { chromium } = require("playwright");
     );
     assert.ok(text.includes("常用素材") && text.includes("查看模式"));
     assert.ok((await dialog.innerText()).includes("独立衍生版本"));
-    assert.equal(await dialog.locator('a[href^="http"]').count(), 0);
+    assert.deepEqual(
+      await dialog
+        .locator('a[href^="http"]')
+        .evaluateAll((links) => links.map((link) => link.href)),
+      [
+        "https://github.com/lulucati-lab",
+        "https://github.com/lulucati-lab/LuluBoard",
+      ],
+    );
     for (const path of [
       "/licenses/excalidraw-MIT.txt",
       "/licenses/NOTICE.txt",
