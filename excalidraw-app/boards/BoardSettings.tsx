@@ -82,7 +82,11 @@ export function BoardSettings({
         .slice(0, 10)}.boardbackup`;
       link.click();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
-      setMessage("已生成完整备份，请在浏览器下载列表中查看。");
+      setMessage(
+        location.protocol === "luluboard:"
+          ? "已生成完整备份，请在系统保存窗口选择位置。"
+          : "已生成完整备份，请在浏览器下载列表中查看。",
+      );
     });
   const readBackup = (file: File) =>
     run(async () => {

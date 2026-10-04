@@ -126,6 +126,34 @@ const path = require("node:path");
     );
     const library = await api("library-load");
     assert.ok(library.libraryItems.length >= 205);
+    await page.context().setOffline(true);
+    await page.reload();
+    await page.locator(".board-card").first().waitFor();
+    await page.getByRole("button", { name: "设置", exact: true }).click();
+    await page.getByRole("button", { name: "备份与恢复", exact: true }).click();
+    const backupPath = path.join(profile, "offline-backup.boardbackup");
+    await app.evaluate(({ session }, savePath) => {
+      session.defaultSession.once("will-download", (_event, item) => {
+        item.setSavePath(savePath);
+        item.once("done", (_event, state) => {
+          global.__backupState = state;
+        });
+      });
+    }, backupPath);
+    await page
+      .getByRole("button", { name: "下载完整备份", exact: true })
+      .click();
+    for (
+      let i = 0;
+      i < 50 && !(await app.evaluate(() => global.__backupState));
+      i++
+    )
+      await page.waitForTimeout(100);
+    assert.equal(await app.evaluate(() => global.__backupState), "completed");
+    const backup = JSON.parse(await fs.readFile(backupPath, "utf8"));
+    assert.equal(backup.boards.length, 1);
+    assert.ok(backup.libraryItems.length >= 205);
+    await page.keyboard.press("Escape");
     await page.getByRole("button", { name: "关于画布", exact: true }).click();
     assert.equal(
       await page.locator('a[href="https://github.com/lulucati-lab"]').count(),
@@ -133,7 +161,7 @@ const path = require("node:path");
     );
     assert.deepEqual(errors, []);
     console.log(
-      "PASS: isolated desktop startup, clean workspace, 205 local materials, failed save prevents close, close-save retry, restart persistence, author address, renderer isolation",
+      "PASS: clean workspace, 205 local materials, save failure blocks close, retry/restart, offline reload and full backup, author address, renderer isolation",
     );
   } finally {
     if (app) await app.close();
